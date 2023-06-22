@@ -13,7 +13,7 @@ function MovieForm() {
     discount: false,
     female_director: false,
   });
-
+  
   function handleSubmit(e) {
     e.preventDefault();
     fetch("/movies", {
